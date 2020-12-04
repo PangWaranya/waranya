@@ -37,7 +37,7 @@ function App() {
           (<div className='api'key={index}>{item?.id} {item?.name} {item?.phone} <img className='pp'src={item?.avatar}/> </div> ))}
            
         </div>  
-        <Button color="primary">primary</Button>
+        
         
         <Conteat />
         <Education />
