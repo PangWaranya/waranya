@@ -9,6 +9,8 @@ import 'antd/dist/antd.css';
 import { Button } from 'antd';
 import New from './components/New'
 import 'weather-icons/css/weather-icons.min.css';
+import { Button } from 'reactstrap';
+
 
 function App() {
   const [data, setItems] = useState(null)
@@ -35,7 +37,7 @@ function App() {
           (<div className='api'key={index}>{item?.id} {item?.name} {item?.phone} <img className='pp'src={item?.avatar}/> </div> ))}
            
         </div>  
-        
+        <Button color="primary">primary</Button>
         
         <Conteat />
         <Education />
