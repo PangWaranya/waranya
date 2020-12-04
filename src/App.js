@@ -9,7 +9,6 @@ import 'antd/dist/antd.css';
 import { Button } from 'antd';
 import New from './components/New'
 import 'weather-icons/css/weather-icons.min.css';
-import { Button } from 'reactstrap';
 
 
 function App() {
