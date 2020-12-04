@@ -36,7 +36,7 @@ function App() {
            
         </div>  
         
-        <Button type="primary">Primary Button</Button>
+        
         <Conteat />
         <Education />
         
